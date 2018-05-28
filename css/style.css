@@ -1,0 +1,14 @@
+table {
+    width: 22%;
+    border-collapse: collapse;
+}
+
+table input {
+    width: 100%;
+    height: 5em;
+}
+
+#val {
+    width: 21.7%;
+    height: 5em;
+}
