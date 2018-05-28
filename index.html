@@ -1,39 +1,41 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="css/reset.css"/>
-        <link rel="stylesheet" href="css/style.css"/>
-        <title>Calculatrice</title>
-    </head>
 
-    <body>
-    <input type="text" id="val"/>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Calculatrice</title>
+</head>
+
+<body>
+    <input type="text" id="val" />
     <table>
-        <tr>
-            <td><input type="button" name="1" value="1"></td>
-            <td><input type="button" name="2" value="2"></td>
-            <td><input type="button" name="3" value="3"></td>
-            <td><input type="button" name="+" value="+"></td>
+        <tr> 
+            <td><input type="button" name="1" value="1"  class="num_button"></td>
+            <td><input type="button" name="2" value="2" class="num_button"></td>
+            <td><input type="button" name="3" value="3" class="num_button"></td>
+            <td><input type="button" name="+" value="+" class="num_button"></td>
         </tr>
         <tr>
-            <td><input type="button" name="4" value="4"></td>
-            <td><input type="button" name="5" value="5"></td>
-            <td><input type="button" name="6" value="6"></td>
-            <td><input type="button" name="-" value="-"></td>
+            <td><input type="button" name="4" value="4" class="num_button"></td>
+            <td><input type="button" name="5" value="5" class="num_button"></td>
+            <td><input type="button" name="6" value="6" class="num_button"></td>
+            <td><input type="button" name="-" value="-" class="num_button"></td>
         </tr>
         <tr>
-            <td><input type="button" name="7" value="7"></td>
-            <td><input type="button" name="8" value="8"></td>
-            <td><input type="button" name="9" value="9"></td>
-            <td><input type="button" name="*" value="*"></td>
+            <td><input type="button" name="7" value="7" class="num_button"></td>
+            <td><input type="button" name="8" value="8" class="num_button"></td>
+            <td><input type="button" name="9" value="9" class="num_button"></td>
+            <td><input type="button" name="*" value="*" class="num_button"></td>
         </tr>
         <tr>
-            <td><input type="button" name="0" value="0"></td>
-            <td colspan="2"><input type="button" name="=" value="="></td>
-            <td><input type="button" name="/" value="/"></td>
+            <td><input type="button" name="0" value="0" class="num_button"></td>
+            <td colspan="2"><input type="button" name="=" value="=" id="resultat"></td>
+            <td><input type="button" name="/" value="/" class="num_button"></td>
         </tr>
     </table>
 
-    </body>
+</body>
+
 </html>
